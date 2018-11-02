@@ -37,7 +37,7 @@ public class DevBootStrap implements ApplicationListener<ContextRefreshedEvent> 
 		
 		//Rod
 		Author rod = new Author("Rod", "Johnson");
-		Book noEJB = new Book("J2EE Development without EJB", "23444", "Worx");
+		Book noEJB = new Book("J2EE Development without EJB", "23444", "Wrox");
 		rod.getBooks().add(noEJB);
 		noEJB.getAuthors().add(rod);
 		

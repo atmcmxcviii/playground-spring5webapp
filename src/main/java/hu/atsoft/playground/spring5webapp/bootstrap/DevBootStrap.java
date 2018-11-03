@@ -54,6 +54,9 @@ public class DevBootStrap implements ApplicationListener<ContextRefreshedEvent> 
 		rod.getBooks().add(noEJB);
 		noEJB.getAuthors().add(rod);
 		
+		eric.getBooks().add(noEJB);
+		noEJB.getAuthors().add(eric);
+		
 		authorRepository.save(rod);
 		bookRepository.save(noEJB);
 	}
